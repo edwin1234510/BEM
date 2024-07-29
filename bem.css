@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --balnco: #fff;
+  --negro: #000000;
+  --violeta: #ce4dfd;
+  --amarillo: #e9cb1c;
+  --rojo: #ff0000;
+  --azul: #001aff;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.boton {
+  background-color: #ce4dfd;
+  padding: 12px;
+  border: solid 1px #ce4dfd;
+  border-radius: 5px;
+  margin: 10px auto;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: space-evenly;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  transition: 1s all;
+}
+.boton:hover {
+  background-color: #fff;
+  color: #ce4dfd;
+  border: solid 1px #ce4dfd;
+}
+.boton--border {
+  border: solid 1px #ce4dfd;
+  background-color: #fff;
+  color: #ce4dfd;
+}
+
+.boton--border:hover {
+  border: solid 1px var(--balnco);
+  color: var(--balnco);
+  background-color: var(--violeta);
+}
+
+.boton__texto {
+  /* color: #fff; */
+}
+.boton__icono {
+  /* color: #fff; */
+}
+.boton--1 {
+  border: solid 1px var(--amarillo);
+  background-color: var(--amarillo);
+  color: var(--balnco);
+}
+.boton--2 {
+  border: solid 1px var(--azul);
+  background-color: var(--azul);
+  color: var(--balnco);
+}
+.boton--3 {
+  border: solid 1px var(--rojo);
+  background-color: var(--rojo);
+  color: var(--balnco);
+}
+
+.boton--1:hover {
+  border: solid 1px var(--amarillo);
+  background-color: var(--balnco);
+  color: var(--amarillo);
+}
+.boton--2:hover {
+  border: solid 1px var(--azul);
+  background-color: var(--balnco);
+  color: var(--azul);
+}
+.boton--3:hover {
+  border: solid 1px var(--rojo);
+  background-color: var(--balnco);
+  color: var(--rojo);
+}
+
+.boton--amarillo {
+  border: solid 1px var(--amarillo);
+  background-color: var(--balnco);
+  color: var(--amarillo);
+}
+.boton--azul {
+  border: solid 1px var(--azul);
+  background-color: #fff;
+  color: var(--azul);
+}
+.boton--rojo {
+  border: solid 1px var(--rojo);
+  background-color: #fff;
+  color: var(--rojo);
+}
+.boton--amarillo:hover {
+  background-color: var(--amarillo);
+  color: var(--balnco);
+  border: solid 1px var(--amarillo);
+}
+.boton--azul:hover {
+  background-color: var(--azul);
+  color: var(--balnco);
+  border: solid 1px var(--azul);
+}
+.boton--rojo:hover {
+  background-color: var(--rojo);
+  color: var(--balnco);
+  border: solid 1px var(--rojo);
+}
+
+.lista {
+  width: 400px;
+  background-color: var(--violeta);
+}
+.lista__item {
+  border: solid 1px var(--negro);
+  padding: 12px;
+}
+.lista__texto {
+}
+.lista__icono {
+}
