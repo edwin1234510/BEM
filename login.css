@@ -16,7 +16,14 @@
   border-radius: 3px;
   border: 2px solid black;
 }
-
+.link {
+  margin: 40px 0 100px 0;
+}
+.componente:hover {
+  background-color: black;
+  color: #79f0dc;
+  transition: 1s;
+}
 .formulario-login {
   max-width: 300px;
   margin: 20px auto;
