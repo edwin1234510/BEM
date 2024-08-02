@@ -1,58 +1,63 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.componente{
-    background-color: #79f0dc;
-    color: black;
-    width: 120px;
-    display: block;
-    padding: 10px;
-  }
+.componente {
+  background-color: #79f0dc;
+  color: black;
+  width: 100%;
+  display: inline;
+  padding: 10px;
+  text-decoration: none;
+  margin-left: 200px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  border: 2px solid black;
+}
 
 .tarjeta-estadisticas {
-    padding: 20px;
-    margin: 10px auto;
-    text-align: center;
-    color: white;
-    width: 220px;
-    cursor: pointer;
-  }
-  
-  .tarjeta-estadisticas__titulo {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .tarjeta-estadisticas__valor {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .tarjeta-estadisticas--predeterminada {
-    background-color: #6c757d;
-    border-radius: 8px;
-  }
-  
-  .tarjeta-estadisticas--destacada {
-    background-color: #007bff;
-  }
-  
-  .tarjeta-estadisticas--exito {
-    background-color: #28a745;
-  }
-  
-  .tarjeta-estadisticas--peligro {
-    color: red;
-    border: 3px solid red;
-    border-radius: 8px;
-  }
+  padding: 20px;
+  margin: 10px auto;
+  text-align: center;
+  color: white;
+  width: 220px;
+  cursor: pointer;
+}
 
-  .tarjeta-estadisticas--destacada:hover{
-    background-color: white;
-    border: 2px solid #007bff ;
-    color: #007bff;
-    
-  }
-  
+.tarjeta-estadisticas__titulo {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.tarjeta-estadisticas__valor {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.tarjeta-estadisticas--predeterminada {
+  background-color: #6c757d;
+  border-radius: 8px;
+}
+
+.tarjeta-estadisticas--destacada {
+  background-color: #007bff;
+  border: 2px solid #007bff;
+}
+
+.tarjeta-estadisticas--exito {
+  background-color: #28a745;
+}
+
+.tarjeta-estadisticas--peligro {
+  color: red;
+  border: 3px solid red;
+  border-radius: 8px;
+}
+
+.tarjeta-estadisticas--destacada:hover {
+  background-color: white;
+  border: 2px solid #007bff;
+  color: #007bff;
+}

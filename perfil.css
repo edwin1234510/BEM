@@ -1,86 +1,91 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .tarjeta-perfil {
-    max-width: 300px;
-    margin: 20px auto;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    text-align: center;
-  }
-  
-  .tarjeta-perfil__imagen {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-bottom: 15px;
-  }
-  
-  .tarjeta-perfil__nombre {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .tarjeta-perfil__descripcion {
-    font-size: 14px;
-    margin-bottom: 15px;
-  }
-  
-  .tarjeta-perfil__boton {
-    padding: 10px 20px;
-    font-size: 14px;
-    border: none;
-    cursor: pointer;
-    color: white;
-    border-radius: 3px;
-  }
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
 
-  .componente{
-    background-color: #79f0dc;
-    color: black;
-    width: 120px;
-    display: block;
-    padding: 10px;
-  }
-  .tarjeta-perfil--predeterminado .tarjeta-perfil__boton {
-    background-color: #007bff;
-  }
-  
-  .tarjeta-perfil--oscuro {
-    background-color: #333;
-    color: white;
-  }
-  
-  .tarjeta-perfil--oscuro .tarjeta-perfil__boton {
-    background-color: #555;
-  }
-  
-  .tarjeta-perfil--oscuro .tarjeta-perfil__imagen {
-    border: 2px solid #444;
-  }
-  
-  .tarjeta-perfil--redondeado {
-    border-radius: 50px;
-  }
-  
-  .tarjeta-perfil--redondeado .tarjeta-perfil__boton {
-    border-radius: 50px;
-    background-color: #28a745;
-  }
-  
-  .tarjeta-perfil--con-borde {
-    border: 2px solid #007bff;
-  }
-  
-  .tarjeta-perfil--con-borde .tarjeta-perfil__boton {
-    background-color: #007bff;
-  }
-  
-  
+.tarjeta-perfil__imagen {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.tarjeta-perfil__nombre {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.tarjeta-perfil__descripcion {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.tarjeta-perfil__boton {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 3px;
+}
+
+.componente {
+  background-color: #79f0dc;
+  color: black;
+  width: 100%;
+  display: inline;
+  padding: 10px;
+  text-decoration: none;
+  margin-left: 200px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  border: 2px solid black;
+}
+
+.tarjeta-perfil--predeterminado .tarjeta-perfil__boton {
+  background-color: #007bff;
+}
+
+.tarjeta-perfil--oscuro {
+  background-color: #333;
+  color: white;
+}
+
+.tarjeta-perfil--oscuro .tarjeta-perfil__boton {
+  background-color: #555;
+}
+
+.tarjeta-perfil--oscuro .tarjeta-perfil__imagen {
+  border: 2px solid #444;
+}
+
+.tarjeta-perfil--redondeado {
+  border-radius: 50px;
+}
+
+.tarjeta-perfil--redondeado .tarjeta-perfil__boton {
+  border-radius: 50px;
+  background-color: #28a745;
+}
+
+.tarjeta-perfil--con-borde {
+  border: 2px solid #007bff;
+}
+
+.tarjeta-perfil--con-borde .tarjeta-perfil__boton {
+  background-color: #007bff;
+}

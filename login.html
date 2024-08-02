@@ -1,58 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="login.css">
-</head>
-<body>
-  <div class="componente">
-    <a href="login.html" >componente 1</a>
-    <a href="estadistica.html" >componente 2</a>
-    <a href="alertas.html" >componente 3</a>
-    <a href="perfil.html" >componente 4</a>
-  </div>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="link">
+      <a href="login.html" class="componente">componente 1</a>
+      <a href="estadistica.html" class="componente">componente 2</a>
+      <a href="alertas.html" class="componente">componente 3</a>
+      <a href="perfil.html" class="componente">componente 4</a>
+    </div>
 
+    <form class="formulario-login formulario-login--predeterminado">
+      <label class="formulario-login__etiqueta" for="username"
+        >Nombre de usuario</label
+      >
+      <input
+        class="formulario-login__entrada"
+        type="text"
+        id="username"
+        name="username"
+      />
+      <label class="formulario-login__etiqueta" for="password"
+        >Contraseña</label
+      >
+      <input
+        class="formulario-login__entrada"
+        type="password"
+        id="password"
+        name="password"
+      />
+      <button class="formulario-login__boton">Iniciar sesión</button>
+    </form>
 
+    <form class="formulario-login formulario-login--oscuro">
+      <label class="formulario-login__etiqueta" for="username"
+        >Nombre de usuario</label
+      >
+      <input
+        class="formulario-login__entrada"
+        type="text"
+        id="username"
+        name="username"
+      />
+      <label class="formulario-login__etiqueta" for="password"
+        >Contraseña</label
+      >
+      <input
+        class="formulario-login__entrada"
+        type="password"
+        id="password"
+        name="password"
+      />
+      <button class="formulario-login__boton">Iniciar sesión</button>
+    </form>
 
+    <form class="formulario-login formulario-login--redondeado">
+      <label class="formulario-login__etiqueta" for="username"
+        >Nombre de usuario</label
+      >
+      <input
+        class="formulario-login__entrada"
+        type="text"
+        id="username"
+        name="username"
+      />
+      <label class="formulario-login__etiqueta" for="password"
+        >Contraseña</label
+      >
+      <input
+        class="formulario-login__entrada"
+        type="password"
+        id="password"
+        name="password"
+      />
+      <button class="formulario-login__boton">Iniciar sesión</button>
+    </form>
 
-
-
-<form class="formulario-login formulario-login--predeterminado">
-  <label class="formulario-login__etiqueta" for="username">Nombre de usuario</label>
-  <input class="formulario-login__entrada" type="text" id="username" name="username">
-  <label class="formulario-login__etiqueta" for="password">Contraseña</label>
-  <input class="formulario-login__entrada" type="password" id="password" name="password">
-  <button class="formulario-login__boton">Iniciar sesión</button>
-</form>
-
-<form class="formulario-login formulario-login--oscuro">
-  <label class="formulario-login__etiqueta" for="username">Nombre de usuario</label>
-  <input class="formulario-login__entrada" type="text" id="username" name="username">
-  <label class="formulario-login__etiqueta" for="password">Contraseña</label>
-  <input class="formulario-login__entrada" type="password" id="password" name="password">
-  <button class="formulario-login__boton">Iniciar sesión</button>
-</form>
-
-<form class="formulario-login formulario-login--redondeado">
-  <label class="formulario-login__etiqueta" for="username">Nombre de usuario</label>
-  <input class="formulario-login__entrada" type="text" id="username" name="username">
-  <label class="formulario-login__etiqueta" for="password">Contraseña</label>
-  <input class="formulario-login__entrada" type="password" id="password" name="password">
-  <button class="formulario-login__boton">Iniciar sesión</button>
-</form>
-
-<form class="formulario-login formulario-login--bordeado">
-  <label class="formulario-login__etiqueta" for="username">Nombre de usuario</label>
-  <input class="formulario-login__entrada" type="text" id="username" name="username">
-  <label class="formulario-login__etiqueta" for="password">Contraseña</label>
-  <input class="formulario-login__entrada" type="password" id="password" name="password">
-  <button class="formulario-login__boton">Iniciar sesión</button>
-</form>
-
-
-          
-          
-</body>
+    <form class="formulario-login formulario-login--bordeado">
+      <label class="formulario-login__etiqueta" for="username"
+        >Nombre de usuario</label
+      >
+      <input
+        class="formulario-login__entrada"
+        type="text"
+        id="username"
+        name="username"
+      />
+      <label class="formulario-login__etiqueta" for="password"
+        >Contraseña</label
+      >
+      <input
+        class="formulario-login__entrada"
+        type="password"
+        id="password"
+        name="password"
+      />
+      <button class="formulario-login__boton">Iniciar sesión</button>
+    </form>
+  </body>
 </html>
