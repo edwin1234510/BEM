@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.componente{
+    background-color: #79f0dc;
+    color: black;
+    width: 120px;
+    display: block;
+    padding: 10px;
+  }
+
+.tarjeta-estadisticas {
+    padding: 20px;
+    margin: 10px auto;
+    text-align: center;
+    color: white;
+    width: 220px;
+    cursor: pointer;
+  }
+  
+  .tarjeta-estadisticas__titulo {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .tarjeta-estadisticas__valor {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .tarjeta-estadisticas--predeterminada {
+    background-color: #6c757d;
+    border-radius: 8px;
+  }
+  
+  .tarjeta-estadisticas--destacada {
+    background-color: #007bff;
+  }
+  
+  .tarjeta-estadisticas--exito {
+    background-color: #28a745;
+  }
+  
+  .tarjeta-estadisticas--peligro {
+    color: red;
+    border: 3px solid red;
+    border-radius: 8px;
+  }
+
+  .tarjeta-estadisticas--destacada:hover{
+    background-color: white;
+    border: 2px solid #007bff ;
+    color: #007bff;
+    
+  }
+  
